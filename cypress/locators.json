@@ -1,0 +1,27 @@
+{
+
+    "homepage":{
+        "customerLoginBtn":"body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(1) > button",
+        "bankManagerLoginBtn":"body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(3) > button"
+    },
+    "addcustomerpage":{
+
+        "addCustBtn":"body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(1)",
+        "firstName":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input",
+        "lastName":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(2) > input",
+        "postCode":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(3) > input",
+        "addCustSubmit":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button"
+      
+
+    },
+    "openaccountpage":{
+        "openaccountbtn":"body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(2)",
+        "customer":"#userSelect",
+        "currency":"#currency",
+        "processbtn":"form.ng-dirty > button"
+
+
+    }
+
+
+}

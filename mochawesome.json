@@ -1,0 +1,242 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-29T12:27:44.708Z",
+    "end": "2020-09-29T12:28:06.760Z",
+    "duration": 11250,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b7b8024b-795d-4ddf-8e8b-abcf0235828a",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcases\\BankManagerLoginTest.spec.js",
+      "file": "cypress\\integration\\testcases\\BankManagerLoginTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d5f1fb5d-0d7a-46f2-b48c-586f01f8396e",
+          "title": "Login as Bank Manager",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate Title of the Page",
+              "fullTitle": "Login as Bank Manager Validate Title of the Page",
+              "timedOut": null,
+              "duration": 1513,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.validateTitle().should('eq', 'Protractor practice website - Banking App');",
+              "err": {},
+              "uuid": "559eece8-72bf-4955-a4ff-5d1fe0343d9c",
+              "parentUUID": "d5f1fb5d-0d7a-46f2-b48c-586f01f8396e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify login as a Bank Manager",
+              "fullTitle": "Login as Bank Manager Verify login as a Bank Manager",
+              "timedOut": null,
+              "duration": 315,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();",
+              "err": {},
+              "uuid": "4c4cbfe9-58bf-48c5-b71b-480204827209",
+              "parentUUID": "d5f1fb5d-0d7a-46f2-b48c-586f01f8396e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "559eece8-72bf-4955-a4ff-5d1fe0343d9c",
+            "4c4cbfe9-58bf-48c5-b71b-480204827209"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1828,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "04c37162-d95b-4501-ae8d-60f39144ef44",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcases\\OpenAccountTest.spec.js",
+      "file": "cypress\\integration\\testcases\\OpenAccountTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e1a0a15e-0aeb-4375-b49a-1cec018df422",
+          "title": "Open account for the Customer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open account test",
+              "fullTitle": "Open account for the Customer Open account test",
+              "timedOut": null,
+              "duration": 3342,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\naddCust.addCustomerDetails(data.firstname, data.lastname, data.postcode);\naddCust.validateAlert(data.alertmsg);\nopenAccount.openaccount(data.customer, data.currency);\nopenAccount.validateAlert(data.accountalert);",
+              "err": {},
+              "uuid": "64723e3a-3688-4425-8f3c-3de9627646a4",
+              "parentUUID": "e1a0a15e-0aeb-4375-b49a-1cec018df422",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "64723e3a-3688-4425-8f3c-3de9627646a4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3342,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "4767ed71-89af-4660-941c-781a0b3be9dd",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcases\\AddCustomerTest.spec.js",
+      "file": "cypress\\integration\\testcases\\AddCustomerTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "256756a5-8541-4618-8297-dea3f3073cbb",
+          "title": "Adding a new Customer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add Customer details",
+              "fullTitle": "Adding a new Customer Add Customer details",
+              "timedOut": null,
+              "duration": 6080,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\naddCust.addCustomerDetails(data.firstname, data.lastname, data.postcode);\naddCust.validateAlert(data.alertmsg);",
+              "err": {},
+              "uuid": "9a2a3ee1-063e-492a-ab72-0b334c2af1c3",
+              "parentUUID": "256756a5-8541-4618-8297-dea3f3073cbb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9a2a3ee1-063e-492a-ab72-0b334c2af1c3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6080,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
